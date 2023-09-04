@@ -1,0 +1,17 @@
+Model,Metric,Validation Score,Test Score
+K-Neighbors Classifier,Accuracy,0.6756652401943435,0.6705287143243348
+K-Neighbors Classifier,Precision,0.631775410218524,0.6308161004431314
+K-Neighbors Classifier,Recall,0.6031628183235578,0.6012318521777387
+K-Neighbors Classifier,F1-Score,0.617137648131267,0.6156687840699193
+Decision Tree Classifier,Accuracy,0.9066894044209917,0.9061908623952419
+Decision Tree Classifier,Precision,0.9065312716362797,0.9073668854850474
+Decision Tree Classifier,Recall,0.8748979137278194,0.8756709194896612
+Decision Tree Classifier,F1-Score,0.8904337312981714,0.8912371826445171
+Random Forest Classifier,Accuracy,0.9512854338942694,0.9509133742710385
+Random Forest Classifier,Precision,0.9541138038441085,0.9524022947292936
+Random Forest Classifier,Recall,0.9324374489568639,0.9348878134623845
+Random Forest Classifier,F1-Score,0.9431510964253529,0.9435637849118601
+Logistic Regression,Accuracy,0.5666205476366678,0.561078283706021
+Logistic Regression,Precision,0.0,0.0
+Logistic Regression,Recall,0.0,0.0
+Logistic Regression,F1-Score,0.0,0.0
