@@ -2,17 +2,8 @@
 import pandas               as pd
 import streamlit            as st
 import numpy                as np
-import pandas               as pd
 import matplotlib.pyplot    as plt
 from PIL                    import Image
-from sklearn.neighbors      import KNeighborsClassifier
-from sklearn.tree           import DecisionTreeClassifier, DecisionTreeRegressor
-from sklearn.ensemble       import RandomForestClassifier, RandomForestRegressor
-from sklearn.linear_model   import LinearRegression, Lasso, Ridge, ElasticNet, LogisticRegression
-from sklearn.metrics        import accuracy_score, precision_score, recall_score, f1_score, r2_score, mean_squared_error, mean_absolute_error, silhouette_score
-from sklearn.preprocessing  import PolynomialFeatures
-from math                   import sqrt
-from sklearn.cluster        import KMeans, AffinityPropagation
 
 # Carregando DataFrames
 results_classification = pd.read_csv('Classificacao/resultados_classificacao.csv')
