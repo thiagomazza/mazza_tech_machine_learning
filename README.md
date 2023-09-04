@@ -59,8 +59,6 @@ Passo 9: Avaliar os ensaios e anotar os 3 principais Insights que se destacaram.
 Os algoritmos baseado em árvores possuem uma performance melhores em todas as métricas,
 quando aplicados sobre os dados de teste, no ensaio de Classificação.
 ## 5.2 - Insight Top 2
-Conteúdo licenciado para Thiago Cerrato Mazza - thiago.mazza86@gmail.com
-Preparando a descrição do projeto 3
 A performance dos algoritmos de classificação sobre os dados de validação ficou bem próxima da
 performance sobre os dados de teste.
 ## 5.3 - Insight Top 3
