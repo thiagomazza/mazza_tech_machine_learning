@@ -1,4 +1,3 @@
- f"""
     <div style="text-align: justify; font-size: 32px;">
 	    1. A empresa Data Money
     </div><br>
@@ -81,5 +80,3 @@
         K-Means: k<br>
         Affinity Propagation: preference<br>
     </div>
-        """,
-        unsafe_allow_html=True
