@@ -1,82 +1,73 @@
- <div style="text-align: justify; font-size: 16px;">
-	 1. A empresa Data Money
- </div><br>
- <div style="text-align: justify; font-size: 16px;">
-        A empresa Data Money fornece serviços de consultoria de Análise e Ciência de Dados para grandes
-        empresas no Brasil e no exterior.
-        O seu principal diferencial de mercado em relação aos concorrentes é o alto retorno financeiro para as
-        empresas clientes, graças a performance de seus algoritmos de Machine Learning.
-        A Data Money acredita que a expertise no treinamento e ajuste fino dos algoritmos, feito pelos Cientistas de
-        Dados da empresa, é a principal motivo dos ótimos resultados que as consultorias vem entregando aos seus
-        clientes.
-        Para continuar crescendo a expertise do time, os Cientistas de Dados acreditam que é extremamente
-        importante realizar ensaios nos algoritmos de Machine Learning para adquirir uma experiência cada vez
-        maior sobre o seu funcionamento e em quais cenários as performances são máximas e mínimas, para que a
-        escolha do algoritmo para cada situação seja a mais correta possível.
-        Como Cientista de Dados recém contratado pela empresa, a sua principal tarefa será realizar 3 ensaios com
-        algoritmos de Classificação, Regressão e Clusterização, a fim de extrair aprendizados sobre o seu
-        funcionamento em determinados cenário e conseguir transmitir esse conhecimento para o restante do time.
-   </div><br>
-   <div style="text-align: justify; font-size: 32px;">
-	    2. O Ensaio de Machine Learning
-   </div><br>
-    <div style="text-align: justify; font-size: 26px;">
-	    2.1. Descrição do Ensaio
-    </div>
-    <div style="text-align: justify; font-size: 16px;">
-        O ensaio de Machine Learning ajuda os Cientistas de Dados a ganhar mais experiência na aplicação dos
-        algoritmos. Nesse ensaio, em específico, cada algoritmo será treinado com os dados de treinamento e
-        sua performance será medida usando 3 conjuntos de dados:<br><br>
-        1. Os próprios dados de treinamento<br>
-        2. Os dados de validação<br>
-        3. Os dados de teste.<br><br>
-    </div>
-    <div style="text-align: justify; font-size: 16px;">
-        A performance de cada algoritmo será medida, utilizando diferentes métricas de performance.
-        O seu trabalho nesse ensaio será construir uma tabela mostrando os valores das métricas de
-        performance para cada algoritmo de Machine Learning.
-        Cada tabela vai armazenar os resultados da performance sobre um conjunto de dados diferentes, ou
-        seja, você precisa criar 3 tabelas:<br><br>
-    </div>
-    <div style="text-align: justify; font-size: 16px;">
-        1) Performance sobre os dados de treinamento<br>
-        2) Performance sobre os dados de validação<br>
-        3) Performance sobre os dados de teste para o Ensaio de classificação, regressão e clusterização;<br><br>
-    </div>
-    <div style="text-align: justify; font-size: 26px;">
-        2.2. Os algoritmos e métricas do ensaio<br>
-    </div>
-    <div style="text-align: justify; font-size: 16px;">
-        2.2.1 - Classificação:<br>
-        Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression<br>
-        Métricas de performance: Accuracy, Precision, Recall e F1-Score<br>
-        2.2.2 - Regressão:<br>
-        Algoritmos: Linear Regression, Decision Tree Regressor, Random Forest Regressor, Polinomial<br>
-        Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net,<br>
-        Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net<br>
-        Métricas de performance: R2, MSE, RMSE, MAE e MAPE<br>
-        2.2.3 - Agrupamento:<br>
-        Algoritmos: K-Means e Affinity Propagation<br>
-        Métricas de performance: Silhouette Score<br><br>
-    </div>
-    <div style="text-align: justify; font-size: 26px;">
-        2.3. Os parâmetros do ensaio
-    </div>
-    <div style="text-align: justify; font-size: 16px;">
-        2.3.1 - Classificação<br>
-        Random Forest Classifier: n_estimators, max_depth<br>
-        K-Neighbors Classifier: n_neighbors<br>
-        Logistic Regression C, Solver, max_iter<br>
-        Decision Tree Classifier: max_depth<br>
-        2.3.2 - Regressão<br>
-        Decision Tree Regressor: max_depth<br>
-        Polinomial Regression: degree<br>
-        Polinomial Regression Lasso e Ridge: degree, alpha, max_iter<br>
-        Polinomial Regression Elastic Net: degree, alpha, l1_ratio, max_iter<br>
-        Random Forest Regressor: n_estimators, max_depth<br>
-        Linear Regression Lasso e Ridge: alpha, max_iter, Linear<br>
-        Regression Elastic Net: alpha, l1_ratio, max_iter<br>
-        2.3.3 - Agrupamento<br>
-        K-Means: k<br>
-        Affinity Propagation: preference<br>
-    </div>
+# 1.Nome do Projeto
+Ensaio de Machine Learning
+
+# 2.Problema de Negócio
+## 2.1 Descrição
+A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos algoritmos, feito
+pelos Cientistas de Dados da empresa, é a principal motivo dos ótimos resultados que as
+consultorias vem entregando aos seus clientes.
+## 2.2 - Objetivo
+O objetivo desse projeto será realizar ensaios com algoritmos de Classificação, Regressão e
+Clusterização, para estudar a mudança do comportamento da performance, a medida que os
+valores dos principais parâmetros de controle de overfitting e underfitting mudam.
+
+# 3. Planejamento da Solução
+## 3.1 - Produto Final
+O produto final será 7 tabelas mostrando a performance dos algoritmos, avaliados usando múltiplas
+métricas, para 3 conjuntos de dados diferentes: Treinamento, validação e teste.
+## 3.2 - Algoritmos ensaiados
+**Classificação**:
+Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression
+Métricas de performance: Accuracy, Precision, Recall e F1-Score
+**Regressão**:
+Algoritmos: Linear Regression, Decision Tree Regressor, Random Forest Regressor, Polinomial
+Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net,
+Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net
+Métricas de performance: R2, MSE, RMSE, MAE e MAPE
+**Agrupamento**:
+Algoritmos: K-Means e Affinity Propagation
+Métricas de performance: Silhouette Score
+
+## 3.3 - Ferramentas utilizadas
+Python 3.8, Streamlit e Scikit-learn
+
+# 4. Desenvolvimento
+## 4.1 - Estratégia da solução
+Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou escrever os códigos
+utilizando a linguagem Python, para treinar cada um dos algoritmos e vou variar seus principais
+parâmetros de ajuste de overfitting e observar a métrica final.
+O conjunto de valores que fizerem os algoritmos alcançarem a melhor performance, serão aqueles
+escolhidos para o treinamento final do algoritmo.
+## 4.2 - O passo a passo
+Passo 1: Divisão dos dados em treino, teste e validação.
+Passo 2: Treinamento dos algoritmos com os dados de treinamento, utilizando os parâmetros
+“default”.
+Passo 3: Medir a performance dos algoritmos treinados com o parâmetro default, utilizando o
+conjunto de dados de treinamento.
+Passo 4: Medir a performance dos algoritmos treinados com o parâmetro “default”, utilizando o
+conjunto de dados de validação.
+Passo 5: Alternar os valores dos principais parâmetros que controlam o overfitting do algoritmo até
+encontrar o conjunto de parâmetros apresente a melhor performance dos algoritmos.
+Passo 6: Unir os dados de treinamento e validação
+Passo 7: Retreinar o algoritmo com a união dos dados de treinamento e validação, utilizando os
+melhores valores para os parâmetros de controle do algoritmo.
+Passo 8: Medir a performance dos algoritmos treinados com os melhores parâmetro, utilizando o
+conjunto de dados de teste.
+Passo 9: Avaliar os ensaios e anotar os 3 principais Insights que se destacaram.
+# 5. Os top 3 Insights
+## 5.1 - Insight Top 1
+Os algoritmos baseado em árvores possuem uma performance melhores em todas as métricas,
+quando aplicados sobre os dados de teste, no ensaio de Classificação.
+## 5.2 - Insight Top 2
+Conteúdo licenciado para Thiago Cerrato Mazza - thiago.mazza86@gmail.com
+Preparando a descrição do projeto 3
+A performance dos algoritmos de classificação sobre os dados de validação ficou bem próxima da
+performance sobre os dados de teste.
+## 5.3 - Insight Top 3
+Todos os algoritmo de regressão não apresentaram boas métricas de performance, o que mostra
+uma necessidade de uma seleção de atributos e uma preparação melhor das variáveis
+independentes do conjunto de dados.
+
+# 6. Resultados
+Foi gerado através do Streamlit a visualização dos dados
+link: https://mazza-tech-machine-learning.streamlit.app/
